@@ -39,7 +39,7 @@ $SHELL -c "npm install"
 
 # Git add, commit and push:
 $SHELL -c "git add -A"
-$SHELL -c "git commit -m 'Auto commit by https://github.com/renatosbispo/init-trybe-project: finish project setup'"
+$SHELL -c "git commit --allow-empty -m 'Auto commit by https://github.com/renatosbispo/init-trybe-project: finish project setup'"
 echo "[INIT TRYBE PROJECT] Running git push..."
 $SHELL -c "git push -u origin "$STUDENT_BRANCH_NAME""
 
